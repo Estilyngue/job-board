@@ -1,10 +1,37 @@
 ---
-title: Welcome to Middleman
+title: Vagas
 ---
 
-<div class="welcome">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<div class="work-with-us">
+  <div class="container">
+    <h2>Venha trabalhar conosco</h2>
+    <h3>Una-se com a gente e ajude a impulsionar projetos de todo o Brasil.</h3>
+    <%= link_to 'Vagas disponíveis', '#open-positions', class: 'btn btn-primary' %>
+  </div>
+</div>
+<div class="about-us">
+  <div class="container">
+    <h2>O que fazemos</h2>
+    <p>Estamos revolucionando a forma de promover eventos cultorais no Brasil, venha fazer parte desse time.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+  </div>
+</div>
+<div id="open-positions" class="jobs">
+  <div class="container">
+    <h2>Vagas Abertas</h2>
+    <% 4.times do |i| %>
+    <div class="job">
+      <h3>Desenvolvedor Backend <%= i %></h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. <%= link_to "Mais informações", '#' %></p>
+    </div>
+    <hr>
+    <% end %>
+
+  </div>
+</div>

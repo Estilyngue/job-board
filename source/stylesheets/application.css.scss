@@ -1,0 +1,28 @@
+@import "bootstrap";
+
+.site-section{
+  padding: 100px 0;
+}
+
+.header{
+  background: black;
+  padding: 20px 0;
+  img{
+    max-width: 200px;
+  }
+  h1{
+    margin-top: 0;
+  }
+}
+
+.work-with-us{
+  @extend .site-section;
+  background: darken(white, 10%);
+}
+.about-us{
+  @extend .site-section;
+  background: darken(white, 15%);
+}
+.jobs{
+  padding: 50px 0;
+}
