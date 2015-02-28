@@ -30,7 +30,7 @@ end
 ###
 helpers do
   def position_path(position)
-    "vagas/#{position.title.parameterize}.html"
+    "/vagas/#{position.title.parameterize}.html"
   end
 
   def position_email(position)
@@ -48,6 +48,7 @@ end
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
+set :relative_links, true
 
 ###
 # Development
