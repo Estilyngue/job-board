@@ -10,13 +10,18 @@
     <title><%= current_page.data.title + " - Estilyngue" %></title>
 
     <%= stylesheet_link_tag "application" %>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300,700,400' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <%= javascript_include_tag  "all" %>
   </head>
 
   <body class="<%= page_classes %>">
     <div class="header">
       <div class="container">
-        <h1><%= image_tag "logo.png", alt: 'Estilyngue' %></h1>
+        <h1>
+          <%= link_to(image_tag("logo.png", alt: 'Estilyngue'), '/index.html', :relative => true) %>
+        </h1>
       </div>
     </div>
     <%= yield %>

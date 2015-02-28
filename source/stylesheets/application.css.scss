@@ -1,3 +1,4 @@
+@import "variables";
 @import "bootstrap";
 
 .site-section{
@@ -17,12 +18,29 @@
 
 .work-with-us{
   @extend .site-section;
-  background: darken(white, 10%);
+  color: white;
+  text-align: center;
+  // background: #50531d image-url('background.png') center;
+
+  h3{
+    font-weight: 300;
+  }
+
+  .btn{
+    margin-top: 20px;
+    border-color: white;
+    background: transparent;
+    transition: all 0.5s ease;
+    &:hover{
+      background: $brand-primary;
+      border-color: $brand-primary;
+    }
+  }
 }
 .about-us{
   @extend .site-section;
-  background: darken(white, 15%);
+  background: image-url('background2.png') center;
 }
-.jobs{
+.positions{
   padding: 50px 0;
 }

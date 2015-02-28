@@ -2,36 +2,34 @@
 title: Vagas
 ---
 
-<div class="work-with-us">
+<div class="work-with-us" data-parallax="scroll" data-image-src="<%= asset_url('images/background.png') %>">
   <div class="container">
-    <h2>Venha trabalhar conosco</h2>
-    <h3>Una-se com a gente e ajude a impulsionar projetos de todo o Brasil.</h3>
-    <%= link_to 'Vagas disponíveis', '#open-positions', class: 'btn btn-primary' %>
+    <h2>Junte-se ao Estilyngue</h2>
+    <h3>E ajude a impulsionar projetos culturais no Brasil</h3>
+    <%= link_to 'Vagas disponíveis', '#open-positions', class: 'btn btn-lg btn-primary' %>
   </div>
 </div>
 <div class="about-us">
   <div class="container">
     <h2>O que fazemos</h2>
-    <p>Estamos revolucionando a forma de promover eventos cultorais no Brasil, venha fazer parte desse time.
+    <p>Estamos revolucionando a forma de promover eventos culturais no Brasil, venha fazer parte desse time.
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
   </div>
 </div>
-<div id="open-positions" class="jobs">
+<div id="open-positions" class="positions">
   <div class="container">
-    <h2>Vagas Abertas</h2>
-    <% 4.times do |i| %>
-    <div class="job">
-      <h3>Desenvolvedor Backend <%= i %></h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. <%= link_to "Mais informações", '#' %></p>
-    </div>
-    <hr>
+    <h2>Posições Abertas</h2>
+    <% data.positions.each do |position| %>
+      <div class="position">
+        <h4><%= position.title %></h4>
+        <p>
+        <%= position.excerpt %>
+        <%= link_to "Mais informações", position_path(position)  %>
+        </p>
+      </div>
+      <hr>
     <% end %>
-
   </div>
 </div>
