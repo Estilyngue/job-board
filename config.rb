@@ -8,9 +8,8 @@
 ###
 # Proxy Pages
 ###
-data.positions.each do |position|
-  proxy "/vagas/#{position.title.parameterize}.html", 'positions/show.html', locals: {position: position}, ignore: true
-end
+# proxy "/page.html", 'other-page.html', locals: {name: 'John'}, ignore: true
+
 
 ###
 # Plugins
@@ -25,22 +24,18 @@ activate :s3_sync do |config|
   config.after_build            = true
 end
 
+activate :blog do |blog|
+  blog.layout = 'position'
+  blog.permalink = '{title}.html'
+  blog.sources = 'positions/{title}.html'
+end
+
 ###
 # Helpers
 ###
-helpers do
-  def position_path(position)
-    "/vagas/#{position.title.parameterize}.html"
-  end
+# helpers do
 
-  def position_email(position)
-    position.email_to || data.site.position.email_to
-  end
-
-  def position_subject(position)
-    "Vaga - #{position.title}"
-  end
-end
+# end
 
 ###
 # Configuration
@@ -62,7 +57,7 @@ end
 ###
 configure :build do
   activate :minify_css
-  activate :gzip
+  # activate :gzip
   activate :minify_javascript
   activate :asset_hash
   activate :relative_assets

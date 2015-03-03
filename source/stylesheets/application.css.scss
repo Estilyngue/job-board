@@ -61,10 +61,12 @@ h2.join{
   }
 }
 
-.about-us{
+.about-us, .position-title{
   @extend .site-section;
   background: image-url('background-gray.png') center;
-
+  h1{
+    margin: 0;
+  }
   h2{
     font-size: 27px;
     margin-top: 0;
