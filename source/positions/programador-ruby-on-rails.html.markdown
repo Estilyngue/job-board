@@ -37,7 +37,7 @@ que a plataforma precisa. Se você é uma pessoa que gosta de trabalhar em um am
 
 # Como se candidatar
 
-Envie um e-mail para [vagas@estilyngue.com](mailto: vagas@estilyngue.com) com o assunto **Ruby on Rails - [Seu Nome]** junto com as seguintes informações:
+Envie um e-mail para [vagas@estilyngue.com](mailto: vagas@estilyngue.com) com o assunto **Programador Ruby on Rails** junto com as seguintes informações:
 
 * Uma apresentação pessoal
 * LinkedIn ou Currículo
