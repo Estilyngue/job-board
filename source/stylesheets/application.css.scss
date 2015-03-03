@@ -1,46 +1,78 @@
 @import "variables";
 @import "bootstrap";
 
-.site-section{
-  padding: 100px 0;
+img{
+  max-width: 100%;
 }
+
+.site-section{
+  padding: 50px 0;
+}
+
 
 .header{
-  background: black;
-  padding: 20px 0;
-  img{
-    max-width: 200px;
-  }
-  h1{
-    margin-top: 0;
-  }
-}
+  background: image-url('header-image.jpg') no-repeat top center;
+  background-size: cover;
 
-.work-with-us{
-  @extend .site-section;
-  color: white;
-  text-align: center;
-  // background: #50531d image-url('background.png') center;
+  .introduction{
+    @extend .col-md-4;
+    min-height: 446px;
+    background: rgba(0,0,0, 0.5);
+    padding-top: 50px;
 
-  h3{
-    font-weight: 300;
-  }
+    h1{
+      margin-top: 0;
+      margin-bottom: 50px
+    }
 
-  .btn{
-    margin-top: 20px;
-    border-color: white;
-    background: transparent;
-    transition: all 0.5s ease;
-    &:hover{
-      background: $brand-primary;
-      border-color: $brand-primary;
+    p{
+      font-size: 22px;
+      color: white;
+      font-weight: 100;
+      text-align: justify;
+      strong{
+        font-weight: 400;
+      }
+    }
+    p.action{
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .btn{
+      margin-top: 20px;
+      border-color: white;
+      background: transparent;
+      transition: all 0.5s ease;
+      &:hover{
+        background: $brand-primary;
+        border-color: $brand-primary;
+      }
     }
   }
 }
+
+h2.join{
+  word-spacing: -8px;
+  font-style: italic;
+  text-transform: uppercase;
+  &:before{
+    content: "#";
+  }
+}
+
 .about-us{
   @extend .site-section;
-  background: image-url('background2.png') center;
+  background: image-url('background-gray.png') center;
+
+  h2{
+    font-size: 27px;
+    margin-top: 0;
+  }
 }
 .positions{
-  padding: 50px 0;
+  @extend .site-section;
+  h2{
+    margin-bottom: 50px;
+  }
 }

@@ -1,26 +1,25 @@
 ---
 title: Vagas
 ---
-
-<div class="work-with-us" data-parallax="scroll" data-image-src="<%= asset_url('images/background.png') %>">
-  <div class="container">
-    <h2>Junte-se ao Estilyngue</h2>
-    <h3>E ajude a impulsionar projetos culturais no Brasil</h3>
-    <%= link_to 'Vagas disponíveis', '#open-positions', class: 'btn btn-lg btn-primary' %>
-  </div>
-</div>
 <div class="about-us">
   <div class="container">
-    <h2>O que fazemos</h2>
-    <p>Estamos revolucionando a forma de promover eventos culturais no Brasil, venha fazer parte desse time.
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+    <div class="col-md-2 col-md-push-1">
+      <%= image_tag("people.png") %>
+    </div>
+    <div class="col-md-8 col-md-push-1">
+      <h2 class="join"><strong>Unir</strong> para <strong>Impulsionar</strong></h2>
+      <p>O <strong>EstilYngue</strong> nasceu da ideia de ser, não apenas mais uma plataforma de crowdfunding, mas também
+          uma rede de relacionamento entre projetos e patrocinadores simples e intuitiva, facilitando o processo
+          de patrocinar ou ser de ser patrocinado, seja por investimento particular ou por leis de incentivo.</p>
+
+      <p>E para alcançar esse objetivo, procuramos pessoas que acreditem na união em prol do desenvolvimento de
+      ideias que podem ajudar a mudar o mundo!</p>
+    </div>
   </div>
 </div>
 <div id="open-positions" class="positions">
   <div class="container">
-    <h2>Posições Abertas</h2>
+    <h2 class="join"><strong>Vagas</strong> Disponíveis</h2>
     <% data.positions.each do |position| %>
       <div class="position">
         <h4><%= position.title %></h4>
