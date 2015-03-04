@@ -1,33 +1,32 @@
 ---
-title: Programador Ruby on Rails
-date: 2015-03-03 15:09
+title: Desenvolvedor Front End
+date: 2015-03-03 18:09
 tags:
 ---
 
-# Programador Ruby on Rails
+# Desenvolvedor Front End
 
 O EstilYngue é uma plataforma com menos de 1 ano de mercado, do início até agora validamos a nossa plataforma
 com alguns clientes iniciais e conseguimos obter vários _feedbacks_ a respeito da plataforma e do nosso modelo de negócio,
 com essas informações, chegou a hora de aplicar todas as melhorias para poder lançar o EstilYngue oficialmente.
 
-Por isso, estamos procurando programadores com experiência em *Ruby on Rails* para nós ajudar a aplicar as melhorias
+Por isso, estamos procurando um desenvolvedor front end com experiências sólidas para nós ajudar a aplicar as melhorias
 que a plataforma precisa. Se você é uma pessoa que gosta de trabalhar em um ambiente com vários desafios, agora é a hora!
 
 ## O que você vai fazer
 
 * Implementar novas funcionalidades
+* Desenvolver components modularizados
 * Efetuar correções de *bugs* conforme são encontrados
 * Identificar e corrigir problemas de performance
-* Contribuir em todas as fases do ciclo de desenvolvimento (Planejar, Desenvolver e Testar)
-* Seguir as boas praticas de desenvolvimento (TDD, Refatoração, Padrões de Código)
-* Suporte para usuários internos
 
 ## Requisitos
 
-* Experiência com desenvolvimento em Ruby on Rails
-* Experiência com bancos de dados relacionais
-* Experiência com front-end, JavaScript, HTML e CSS
-* Experiência com BDD/TDD
+* Domínio em HTML, CSS e Javascript
+* Conhecimento em SASS ou LESS
+* Conhecer técnicas para layouts responsivos
+* Experiência com ferramentas como YSlow ou PageSpeed
+* Experiência com alguma linguagem server side (Ruby on Rails, PHP, Python)
 * Experiência com Git
 * Inglês técnico (ler artigos)
 * Residir em **Curitiba/PR ou região metropolitana**
@@ -35,15 +34,15 @@ que a plataforma precisa. Se você é uma pessoa que gosta de trabalhar em um am
 ## Diferenciais
 
 * Contribuir para projetos open-source é um _plus_
-* Experiência com SASS e CoffeScript
-* Conhecimento dos serviços da Amazon como EC2, OpsWorks e S3
-* Bando de dados não relacional
+* Conhecer o ciclo de uma requisição HTTP
+* Experiência com Asset Pipeline
 
 ## Como se candidatar
 
-Envie um e-mail para [vagas@estilyngue.com](mailto: vagas@estilyngue.com) com o assunto **Programador Ruby on Rails** junto com as seguintes informações:
+Envie um e-mail para [vagas@estilyngue.com](mailto: vagas@estilyngue.com) com o assunto **Desenvolvedor Front End** junto com as seguintes informações:
 
 * Uma apresentação pessoal
+* Link para alguns trabalhos
 * LinkedIn ou Currículo
 * Pretensão Salarial
-* Endereço do GitHub/Bitbucket
+* Endereço do GitHub/Bitbucket (se tiver)
