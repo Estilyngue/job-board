@@ -8,6 +8,7 @@ gem "middleman-livereload", "~> 3.1.0"
 gem 'middleman-s3_sync'
 gem 'middleman-dotenv', '~> 1.0'
 gem "middleman-blog"
+gem 'middleman-minify-html'
 
 # Assets
 gem "bootstrap-sass"
