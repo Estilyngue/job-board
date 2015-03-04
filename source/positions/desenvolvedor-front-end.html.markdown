@@ -16,7 +16,7 @@ que a plataforma precisa. Se você é uma pessoa que gosta de trabalhar em um am
 ## O que você vai fazer
 
 * Implementar novas funcionalidades
-* Desenvolver components modularizados
+* Desenvolver componentes modularizados
 * Efetuar correções de *bugs* conforme são encontrados
 * Identificar e corrigir problemas de performance
 
