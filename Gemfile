@@ -9,6 +9,7 @@ gem 'middleman-s3_sync'
 gem 'middleman-dotenv', '~> 1.0'
 gem "middleman-blog"
 gem 'middleman-minify-html'
+gem 'middleman-google-analytics'
 
 # Assets
 gem "bootstrap-sass"
