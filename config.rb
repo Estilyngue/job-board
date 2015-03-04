@@ -50,6 +50,10 @@ set :relative_links, true
 ###
 configure :development do
   activate :livereload
+
+  activate :google_analytics do |ga|
+    ga.tracking_id = "XX_9999999-9"
+  end
 end
 
 ###
@@ -61,5 +65,10 @@ configure :build do
   activate :minify_javascript
   activate :asset_hash
   activate :relative_assets
+
+  activate :google_analytics do |ga|
+    ga.tracking_id = ENV.fetch('GA_TRACKING_ID')
+  end
+
 
 end
