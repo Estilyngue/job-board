@@ -4,6 +4,8 @@ date: 2015-03-03 15:09
 tags:
 ---
 
+# Programador Ruby on Rails
+
 O EstilYngue é uma plataforma com menos de 1 ano de mercado, do início até agora validamos a nossa plataforma
 com alguns clientes iniciais e conseguimos obter vários _feedbacks_ a respeito da plataforma e do nosso modelo de negócio,
 com essas informações, chegou a hora de aplicar todas as melhorias para poder lançar o EstilYngue oficialmente.
@@ -11,7 +13,7 @@ com essas informações, chegou a hora de aplicar todas as melhorias para poder 
 Por isso, estamos procurando programadores com experiência em *Ruby on Rails* para nós ajudar a aplicar as melhorias
 que a plataforma precisa. Se você é uma pessoa que gosta de trabalhar em um ambiente com vários desafios, agora é a hora!
 
-# O que você vai fazer
+## O que você vai fazer
 
 * Implementar novas funcionalidades
 * Efetuar correções de *bugs* conforme são encontrados
@@ -20,7 +22,7 @@ que a plataforma precisa. Se você é uma pessoa que gosta de trabalhar em um am
 * Seguir as boas praticas de desenvolvimento (TDD, Refatoração, Padrões de Código)
 * Suporte para usuários internos
 
-# Requisitos
+## Requisitos
 
 * Experiência com desenvolvimento em Ruby on Rails
 * Experiência com bancos de dados relacionais
@@ -28,14 +30,15 @@ que a plataforma precisa. Se você é uma pessoa que gosta de trabalhar em um am
 * Experiência com BDD/TDD
 * Experiência com Git
 * Inglês técnico (ler artigos)
+* Residir em **Curitiba/PR ou região metropolitana**
 
-# Diferenciais
+## Diferenciais
 
 * Experiência com SASS e CoffeScript
 * Conhecimento dos serviços da Amazon como EC2, OpsWorks e S3
 * Bando de dados não relacional
 
-# Como se candidatar
+## Como se candidatar
 
 Envie um e-mail para [vagas@estilyngue.com](mailto: vagas@estilyngue.com) com o assunto **Programador Ruby on Rails** junto com as seguintes informações:
 

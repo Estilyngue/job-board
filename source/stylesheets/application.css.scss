@@ -9,7 +9,6 @@ img{
   padding: 50px 0;
 }
 
-
 .header{
   background: image-url('header-image.jpg') no-repeat top center;
   background-size: cover;
@@ -72,9 +71,15 @@ h2.join{
     margin-top: 0;
   }
 }
+
+.index .positions h2{
+  margin-bottom: 50px;
+}
+
 .positions{
   @extend .site-section;
-  h2{
-    margin-bottom: 50px;
+
+  h1:first-child{
+    display: none;
   }
 }
