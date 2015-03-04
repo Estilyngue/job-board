@@ -17,8 +17,8 @@
 activate :dotenv
 
 activate :s3_sync do |config|
-  config.bucket                 = 'vagas.estilyngue.com'
-  config.region                 = 'sa-east-1'
+  config.bucket                 = ENV.fetch('AWS_S3_BUCKET')
+  config.region                 = ENV.fetch('AWS_S3_REGION')
   config.aws_access_key_id      = ENV.fetch('AWS_ACCESS_KEY_ID')
   config.aws_secret_access_key  = ENV.fetch('AWS_SECRET_ACCESS_KEY')
   config.after_build            = true
