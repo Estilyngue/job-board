@@ -1,17 +1,20 @@
 <head>
   <meta charset="utf-8">
 
+  <meta name="description" content="<%= data.app.site.description %>">
+  <meta property="og:locale" content="<%= data.app.site.locale %>">
+  <meta property="og:title" content="<%= current_page.data.title %>">
+  <meta property="og:site_name" content="<%= data.app.site.name %>">
+  <meta property="og:description" content="<%= data.app.site.description %>">
+  <meta property="og:image" content="http://vagas.estilyngue.com/<%= asset_url "images/cover.jpg" %>">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
   <!-- Always force latest IE rendering engine or request Chrome Frame -->
   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 
-  <meta property="og:locale" content="en_US">
-  <meta property="og:title" content="Vagas abertas">
-  <meta property="og:site_name" content="Estilyngue">
-  <meta property="og:description" content="Somos o estilYngue.com e estamos à procura de pessoas apaixonadas e dispostas a ajudar a impulsionar grandes projetos do nosso país!">
-  <meta property="og:image" content="<%= asset_url "images/logo.png" %>">
-
   <!-- Use title if it's in the page YAML frontmatter -->
-  <title><%= current_page.data.title + " - Estilyngue" %></title>
+  <title><%= current_page.data.title + " | " + data.app.site.name %></title>
 
   <%= stylesheet_link_tag "application" %>
   <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,700,400' rel='stylesheet' type='text/css'>
