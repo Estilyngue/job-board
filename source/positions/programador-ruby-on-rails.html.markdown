@@ -37,7 +37,7 @@ que a plataforma precisa. Se você é uma pessoa que gosta de trabalhar em um am
 * Contribuir para projetos open-source é um _plus_
 * Experiência com SASS e CoffeScript
 * Conhecimento dos serviços da Amazon como EC2, OpsWorks e S3
-* Bando de dados não relacional
+* Banco de dados não relacional
 
 ## Como se candidatar
 
