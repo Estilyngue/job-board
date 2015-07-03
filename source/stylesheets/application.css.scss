@@ -81,4 +81,14 @@ h2.join{
   h1:first-child{
     display: none;
   }
+
+  .closed{
+    text-decoration: line-through;
+  }
+}
+
+@media (max-width: 991px) {
+  .people {
+    display: none;
+  }
 }

@@ -3,7 +3,7 @@ title: Trabalhe Conosco
 ---
 <div class="about-us">
   <div class="container">
-    <div class="col-md-2 col-md-push-1">
+    <div class="col-md-2 col-md-push-1 people">
       <%= image_tag("people.png") %>
     </div>
     <div class="col-md-8 col-md-push-1">
@@ -21,8 +21,8 @@ title: Trabalhe Conosco
   <div class="container">
     <h2 class="join"><strong>Vagas</strong> Disponíveis</h2>
     <% blog.articles.each do |article| %>
-      <div class="position">
-        <h4><%= link_to article.title, article.url %></h4>
+      <div class="position <%= article.tags.join(" ") %>">
+        <h4><%= link_to article.title, "#{article.url}#header" %></h4>
       </div>
       <hr>
     <% end %>

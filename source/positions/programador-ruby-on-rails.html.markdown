@@ -1,7 +1,7 @@
 ---
 title: Programador Ruby on Rails
 date: 2015-03-03 15:09
-tags:
+tags: closed
 ---
 
 # Programador Ruby on Rails
